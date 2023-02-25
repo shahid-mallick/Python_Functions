@@ -1,9 +1,15 @@
 import numpy as np
 
-rows= int(input("number of rows : "))
-col= int(input ("number of colomns : "))
 
 
-myMatrix = np.arange(1,rows*col+1).reshape(rows,col)
+def array_2D():
+    rows= int(input("number of rows : "))
+    col= int(input ("number of colomns : "))
 
-print(myMatrix)
+
+    myMatrix = np.arange(1,rows*col+1).reshape(rows,col)
+
+    print(myMatrix)
+
+
+array_2D()
