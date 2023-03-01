@@ -1,5 +1,6 @@
 import math as m
 
+
 def Euclidean():
     x= 3
     y= 4

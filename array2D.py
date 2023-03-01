@@ -1,7 +1,6 @@
 import numpy as np
 
 
-
 def array_2D():
     rows= int(input("number of rows : "))
     col= int(input ("number of colomns : "))

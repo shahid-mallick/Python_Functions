@@ -1,5 +1,6 @@
 import cmath as cm
 
+
 def quadratic_eqn ():
     a= int(input("Enter the non zero value of a : "))
     b= int(input("Enter the value of b : "))
